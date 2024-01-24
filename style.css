@@ -166,3 +166,32 @@ body{
     margin: 8px;
     padding: 8px;
 }
+
+.footer-content footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    background-image: linear-gradient(to right,  #b62c8d, #3d91f4);
+    color: white;
+    width: 100%;
+    padding: 16px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.footer-content .footer-title{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.footer-content .footer-button{
+    background-color: white;
+    border: 0;
+    font-weight: 800;
+    border-radius: 40px;
+    margin-right: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
